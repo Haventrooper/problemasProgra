@@ -1,4 +1,4 @@
-solution('abcdefg')
+solution('abc')
 
 function solution(str){
     let stringPar = []
@@ -17,5 +17,5 @@ function solution(str){
    if(str.length % 2 !== 0){
        stringPar[contPar] = str[str.length -1] + '_'
    }
-   console.log(JSON.stringify(stringPar))
+   console.log(stringPar)
 }
