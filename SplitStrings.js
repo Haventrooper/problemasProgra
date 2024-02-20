@@ -17,5 +17,5 @@ function solution(str){
    if(str.length % 2 !== 0){
        stringPar[contPar] = str[str.length -1] + '_'
    }
-   console.log(stringPar)
+   return stringPar
 }
